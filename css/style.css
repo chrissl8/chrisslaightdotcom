@@ -1,8 +1,16 @@
 .masthead-image {
-  background-image: url(../images/beach.jpg) !important;
+  background-image: url(../images/cali-sun-bg.jpg) !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
+}
+
+.title-text {
+  text-shadow: 5px 5px 10px black;
+}
+
+.ui.vertical.stripe {
+  padding: 2em 0em !important;
 }
 
 @media only screen and (min-width: 700px) {
@@ -18,5 +26,10 @@
 
   .ui.menu .item {
     line-height: 4 !important;
+  }
+
+  .ui.table:not(.unstackable) td:first-child,
+  .ui.table:not(.unstackable) th:first-child {
+    font-weight: 100 !important;
   }
 }
