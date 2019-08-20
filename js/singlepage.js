@@ -1,6 +1,7 @@
 $(document).ready(function() {
   $(".sp-resume-content").hide();
-  //$(".sp-text-resume").hide();
+  $(".sp-projects-content").hide();
+  $(".sp-contact-content").hide();
 });
 
 $(document).ready(function() {
