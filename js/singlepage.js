@@ -11,8 +11,8 @@ $(document).ready(function() {
     $(".sp-link-projects").removeClass("active");
     $(".sp-link-contact").removeClass("active");
 
-    $(".sp-home-content").show();
-    $(".sp-home-image").show();
+    $(".sp-home-content").fadeIn();
+    $(".sp-home-image").fadeIn();
     $(".sp-resume-content").insertAfter(".sp-home-content");
     $(".sp-projects-content").insertAfter(".sp-home-content");
     $(".sp-contact-content").insertAfter(".sp-home-content");
@@ -28,7 +28,7 @@ $(document).ready(function() {
     $(".sp-link-projects").removeClass("active");
     $(".sp-link-contact").removeClass("active");
 
-    $(".sp-resume-content").show();
+    $(".sp-resume-content").fadeIn();
     $(".sp-home-content").insertAfter(".sp-resume-content");
     $(".sp-projects-content").insertAfter(".sp-home-content");
     $(".sp-contact-content").insertAfter(".sp-home-content");
@@ -45,7 +45,7 @@ $(document).ready(function() {
     $(".sp-link-resume").removeClass("active");
     $(".sp-link-contact").removeClass("active");
 
-    $(".sp-projects-content").show();
+    $(".sp-projects-content").fadeIn();
     $(".sp-home-content").insertAfter(".sp-resume-content");
     $(".sp-resume-content").insertAfter(".sp-home-content");
     $(".sp-contact-content").insertAfter(".sp-home-content");
@@ -62,7 +62,7 @@ $(document).ready(function() {
     $(".sp-link-projects").removeClass("active");
     $(".sp-link-resume").removeClass("active");
 
-    $(".sp-contact-content").show();
+    $(".sp-contact-content").fadeIn();
     $(".sp-home-content").insertAfter(".sp-resume-content");
     $(".sp-projects-content").insertAfter(".sp-home-content");
     $(".sp-resume-content").insertAfter(".sp-home-content");
