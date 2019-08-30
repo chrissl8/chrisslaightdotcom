@@ -1,0 +1,33 @@
+body {
+	font-family: "Times New Roman", serif;
+	text-align: center;
+	background-image: url('../images/cloud_1995_bg.jpeg');
+	background-size: cover;
+}
+
+table {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+td {
+	padding: 3px;
+}
+
+.title {
+
+	
+}
+
+
+/* Responsive CSS Media Query for Mobile Devices */
+@media only screen  
+and (max-device-width : 375px) 
+and (orientation : portrait) {
+
+}
+
+
+
+
+
